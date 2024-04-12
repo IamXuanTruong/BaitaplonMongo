@@ -1,0 +1,116 @@
+.banner_full {
+    width: 100%;
+    height: 450px;
+}
+
+.banner_full img {
+    width: 100%;
+    height: 450px;
+}
+
+.banner_product {
+    width: 100%;
+    display: flex;
+}
+
+.banner1,
+.banner2,
+.banner3,
+.banner4 {
+    width: 25%;
+    width: 100%;
+    height: 510px;
+}
+
+.banner1 {
+    background: #59CCA6;
+    background-image: url("../../../../img/img1.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.banner2 {
+    background: #91AD41;
+    background-image: url("../../../../img/img2.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.banner3 {
+    background: #E3B375;
+    background-image: url("../../../../img/img3.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.banner4 {
+    background: #EF7F94;
+    background-image: url("../../../../img/img4.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.text_banner {
+    margin-top: 50px;
+    text-align: left;
+    padding: 60px;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text_banner button {
+    padding: 10px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.text_banner button :hover {
+    cursor: pointer;
+}
+
+.brand {
+    width: 70%;
+    margin: 10px auto;
+}
+
+.title_home {
+    width: 55%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.authen_food {
+    width: 100%;
+    overflow-x: hidden;
+    text-align: center;
+
+}
+
+.authen_food h6 {
+    font-size: 20px;
+}
+
+.authen_food p {
+    font-size: 15px;
+    width: 90%;
+    margin: 0 auto;
+    color: gray;
+}
+
+.title_home p {
+    color: gray;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.product_sale {
+    width: 95%;
+    margin: 0 auto;
+}

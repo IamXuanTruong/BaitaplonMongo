@@ -1,0 +1,93 @@
+.listproduct {
+    width: 96%;
+    margin: 30px auto;
+    text-align: left;
+}
+
+.soft li {
+    list-style: none;
+}
+
+.card {
+    width: 100%;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-body {
+    background-color: #f5f6fb;
+    text-align: center;
+}
+
+.card-body .card-title {
+    color: black;
+}
+
+.card-text {
+    color: #91ad41;
+}
+
+.card-body .card-title:hover {
+    color: #91ad41;
+}
+
+.card:hover {
+    box-shadow: -5px 6px 9px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: -5px 6px 9px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: -5px 6px 9px 0px rgba(0, 0, 0, 0.3);
+
+    .active_cart button {
+        display: block;
+    }
+}
+
+.active_product {
+    width: 100px;
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: 32%;
+}
+
+.active_cart button {
+    color: black;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    box-shadow: -2px 2px 38px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 2px 38px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 2px 38px -6px rgba(0, 0, 0, 0.75);
+    display: none;
+}
+
+.active_cart button:hover {
+    background-color: #91ad41;
+    color: #fff;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    background-color: #91ad41;
+    color: white;
+    border: 1px solid #91ad41;
+    padding: 8px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.pagination button:hover {
+    background-color: #45a049;
+}
+
+.pagination button.active {
+    background-color: #45a049;
+}

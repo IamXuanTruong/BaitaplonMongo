@@ -1,0 +1,29 @@
+.about_content {
+    text-align: left;
+    width: 95%;
+    margin: 50px auto;
+    font-family: inherit;
+}
+
+.title_login {
+    width: 100%;
+    background-image: url(../../../../img/bg2.png);
+    text-align: center;
+    height: 190px;
+    background-repeat: no-repeat;
+}
+
+.link_cumb {
+    width: 140px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.link_cumb a {
+    color: #111;
+}
+
+.text_title_login {
+    color: #91AD41;
+}

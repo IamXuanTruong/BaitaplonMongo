@@ -1,0 +1,51 @@
+.profile_page {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+
+.image_profile {
+    width: 30%;
+    background-color: #bacf9c;
+    border-radius: 10px;
+    margin: 30px auto;
+}
+
+.form_profile {
+    padding: 40px;
+    width: 60%;
+    margin: 30px auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.item_image {
+    width: 120px;
+    height: 120px;
+    margin: 30px auto;
+}
+
+.item_image img {
+    width: 100%;
+    border-radius: 100px;
+}
+
+.item_active {
+    margin: 0 auto;
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+}
+
+.item_name {
+    padding: 15px;
+    font-size: 22px;
+}
+
+.item_profile {
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
